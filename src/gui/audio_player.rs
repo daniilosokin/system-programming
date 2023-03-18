@@ -4,7 +4,7 @@ use gtk::{Align, Application, ApplicationWindow, Box, Button, CenterBox, Label, 
 use gtk::gio::{MenuItem, Menu};
 
 
-const TITLE_NAME: &str = "Rust | Python | Audio Player";
+const TITLE_NAME: &str = "Rust | Audio Player";
 const STATUS_LIST: &[&str] = &["Is playing", "Is stopped"];
 
 
