@@ -1,4 +1,4 @@
-/screens
-/AudioPlayer/target
-/target
-/.idea
+/.idea/
+/AudioPlayer/target/
+/screens/
+/target/
