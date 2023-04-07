@@ -171,7 +171,7 @@ impl Status
 pub struct AudioPlayer
 {
     pub window: ApplicationWindow,
-    pub master: Box,
+    master: Box,
     control: Control,
     playlist: Playlist,
     status: Status,
