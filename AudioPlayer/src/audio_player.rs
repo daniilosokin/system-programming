@@ -1,7 +1,6 @@
 use gtk4::prelude::*;
 use gtk4::{Adjustment, Align, Application, ApplicationWindow, Box, Button, Justification, Label,
            ListBox, Orientation, PolicyType, Scale, ScrolledWindow, VolumeButton};
-//use gtk4::gio::{MenuItem, Menu};
 
 
 const TITLE_NAME: &str = "Audio Player";
@@ -191,7 +190,6 @@ impl AudioPlayer
         master.append(&playlist.master);
         master.append(&status.master);
 
-        // APP WINDOW
         let window = ApplicationWindow::builder()
             .application(app)
             .title(TITLE_NAME)
